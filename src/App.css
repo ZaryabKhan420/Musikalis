@@ -3,3 +3,19 @@
 * {
   font-family: Poppins;
 }
+
+@media (max-width: 375px) {
+  .testimonial-card {
+    height: 350px !important;
+    padding: 15px !important;
+  }
+  .hero-heading {
+    font-size: 3.5rem !important;
+  }
+}
+
+@media (max-width: 334px) {
+  .testimonial-card {
+    height: 370px !important;
+  }
+}

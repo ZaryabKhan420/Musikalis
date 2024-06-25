@@ -65,7 +65,7 @@ const Footer = () => {
             );
           })}
         </div>
-        <p className="text-textLight text-sm mt-[5rem]">
+        <p className="text-textLight text-sm mt-[5rem] mb-5 text-center">
           Copyright © 2024 Zaryab. All rights reserved.
         </p>
       </div>

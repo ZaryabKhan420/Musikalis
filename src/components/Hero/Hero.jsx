@@ -19,7 +19,7 @@ const Hero = () => {
     <>
       <div className="container my-5 md:my-16">
         <h1
-          className="text-[5rem] text-white hidden md:block"
+          className="text-[5rem] text-white hidden md:block hero-heading"
           data-aos="fade-up"
           data-aos-delay="300"
         >
@@ -28,21 +28,21 @@ const Hero = () => {
         <div className="container grid grid-cols-1 md:grid-cols-2 p-0">
           <div className=" flex flex-col justify-start items-center md:items-start gap-3 order-2 md:order-1">
             <h1
-              className="text-[4rem] my-0 md:text-[5rem] text-center text-white md:hidden block"
+              className="text-[4rem] my-0 md:text-[5rem] text-center text-white md:hidden block hero-heading"
               data-aos="fade-up"
               data-aos-delay="300"
             >
               Music Is The
             </h1>
             <h1
-              className="text-[4rem] mt-[-1.5rem] md:text-[5rem] text-center text-white md:hidden block"
+              className="text-[4rem] mt-[-1.5rem] md:text-[5rem] text-center text-white md:hidden block hero-heading"
               data-aos="fade-up"
               data-aos-delay="300"
             >
               Shorthand
             </h1>
             <h1
-              className="text-[4rem] text-center md:text-left mt-[-1.5rem] md:text-[5rem] text-white md:my-[-0.5rem]"
+              className="text-[4rem] text-center md:text-left mt-[-1.5rem] md:text-[5rem] text-white md:my-[-0.5rem] hero-heading"
               data-aos="fade-up"
               data-aos-delay="300"
             >
@@ -94,7 +94,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="order-1 md:order-2">
-            <div className="p-0 md:p-[6rem] md:pt-0">
+            <div className="p-0 lg:p-[6rem] md:pt-0">
               <img
                 src={heroImg}
                 alt=""

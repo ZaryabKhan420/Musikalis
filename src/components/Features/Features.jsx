@@ -27,8 +27,8 @@ const Features = () => {
   ];
 
   return (
-    <div className="container my-16 grid grid-cols-1 md:grid-cols-2 place-items-center gap-12 md:gap-0">
-      <div className="flex flex-col justify-start items-start gap-5 order-2 md:order-1">
+    <div className="container my-16 grid grid-cols-1 lg:grid-cols-2 place-items-center gap-12 lg:gap-0">
+      <div className="flex flex-col justify-start items-start gap-5 order-2 lg:order-1">
         <h1
           className="text-center text-[2.5rem] text-white"
           data-aos="fade-up"
@@ -56,7 +56,7 @@ const Features = () => {
         })}
       </div>
       <div
-        className="w-full sm:w-[400px] h-[420px] overflow-hidden border-2 border-textLight rounded-2xl rounded-bl-[10rem] order-1 md:order-2"
+        className="w-full sm:w-[400px] h-[420px] overflow-hidden border-2 border-textLight rounded-2xl rounded-bl-[10rem] order-1 lg:order-2"
         data-aos="fade-left"
       >
         <img src={featureImage} alt="featureImage" loading="lazy" />

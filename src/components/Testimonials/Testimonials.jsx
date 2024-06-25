@@ -9,7 +9,7 @@ import Client05 from "../../assets/client-5.jpg";
 const Testimonials = () => {
   var settings = {
     dots: false,
-    arrows: false,
+    arrows: true,
     infinite: false,
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -23,7 +23,7 @@ const Testimonials = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
         },
@@ -41,14 +41,14 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      msg: "Amidst my hectic schedule, the soothing melodies from thiswebsite provide a much-needed escape, allowing me to unwind andrecharge.",
+      msg: "Amidst my hectic schedule, the soothing melodies from this website provide a much needed escape, allowing me to unwind and recharge myself.",
       img: Client02,
       name: "Sarah",
       role: "Marketting Manager",
     },
     {
       id: 3,
-      msg: "Harnessing the tranquil melodies from this website, I cultivate a serene learning environment in my classroom & academic success among my students.",
+      msg: "Harnessing the tranquil melodies from this website, I cultivate a serene learning environment in my classroom & academic success among my students and collagues.",
       img: Client03,
       name: "Jennifer",
       role: "Educator",
@@ -79,12 +79,12 @@ const Testimonials = () => {
           our music.
         </p>
       </div>
-      <Slider {...settings} className="my-[4rem]">
+      <Slider {...settings} className="my-[4rem] mx-5 sm:mx-0">
         {testimonialsDetails.map((client) => {
           return (
             <div>
               <div
-                className="flex flex-col justify-center items-start gap-5 p-7 rounded-2xl bg-gradient1 ml-5"
+                className="flex flex-col justify-between items-start gap-5 p-7 sm:h-[280px] h-[320px] rounded-2xl bg-gradient1 mx-3 testimonial-card"
                 key={client.id}
               >
                 <div className="flex justify-start items-center gap-1">
